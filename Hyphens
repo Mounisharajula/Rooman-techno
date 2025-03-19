@@ -1,0 +1,8 @@
+def number_to_hyphens(num):
+    if num >= 0:
+        return '-' * num
+    else:
+        return "Invalid input. Please enter a non-negative integer."
+number = 7
+result = number_to_hyphens(number)
+print(result) 
